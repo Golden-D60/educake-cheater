@@ -1,0 +1,14 @@
+{
+  "name": "Educake Cheater",
+  "description": "Cheat on Educake with this extension.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://my.educake.co.uk/my-educake/quiz/*"
+      ]
+    }
+  ]
+}
